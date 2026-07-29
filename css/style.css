@@ -9,7 +9,26 @@ body{
 
 }
 
-span{
+h1{
+    font-size: 70px;
+    font-family: "Unbounded", sans-serif;
+    font-weight: bold;
+    /*font-family: serif; */
+    /*font-family: sans-serif;*/
+    /*font-family: monospace;*/
+    /*font-family: cursive;*/
+    /*font-family: fantasy;*/
+    /* Caso exista arial, usa arial, se não existir usa helvetica e cso contrário usa sans-serif
+    essa hierarquia se chama fallback
+    font-family: Arial, Helvetica, sans-serif;*/ 
+}
+
+p{
+    font-family: "Poppins";
+    
+}
+
+h1 span{
     color: #9747FF;
 }
 
